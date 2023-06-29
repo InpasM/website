@@ -12,14 +12,15 @@
 
 @font-face {
     font-family: 'playregular';
-    src: url('fonts/Play-Regular.ttf') format('truetype'),
+    src: url('fonts/Play-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 body
 {
-	font-family: playregular, cantarellregular;
+	/* font-family: playregular, cantarellregular; */
+	font-family: cantarellregular;
 }
 
 header
@@ -49,11 +50,6 @@ header
 {
 	flex: 2;
 	padding-left: 20px;
-}
-
-form
-{
-
 }
 
 input
@@ -229,7 +225,7 @@ footer p
 {
 	margin: auto;
 	margin-top: 15px;
-	font-size: 0.8em;
+	font-size: 0.7em;
 }
 
 
@@ -339,13 +335,6 @@ footer p
 {
 	width: 100%;
 }
-
-.img_clockwork
-{
-	marg
-}
-
-
 
 h2		/* Size titles projects */
 {
