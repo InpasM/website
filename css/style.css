@@ -1,0 +1,370 @@
+@font-face {
+    font-family: 'cantarellregular';
+    src: url('fonts/Cantarell-Regular-webfont.eot');
+    src: url('fonts/Cantarell-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Cantarell-Regular-webfont.woff2') format('woff2'),
+         url('fonts/Cantarell-Regular-webfont.woff') format('woff'),
+         url('fonts/Cantarell-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Cantarell-Regular-webfont.svg#cantarellregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'playregular';
+    src: url('fonts/Play-Regular.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+	font-family: playregular, cantarellregular;
+}
+
+header
+{
+	max-width: 950px;
+	display: flex;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	justify-content: center;
+}
+
+.bloc_contact
+{
+	max-width: 950px;
+	display: flex;
+	margin: auto;
+}
+
+.about_me
+{
+	flex: 3;
+	padding-right: 20px;
+}
+
+.contact
+{
+	flex: 2;
+	padding-left: 20px;
+}
+
+form
+{
+
+}
+
+input
+{
+	width: 100%;
+	height: 30px;
+}
+
+.message_form
+{
+	height: 130px;
+}
+
+.name
+{
+	min-width: 175px;
+	flex-direction: column;
+}
+
+h1
+{
+	font-weight: normal;
+	font-size: 1.7em;
+	margin: 0 0 0 0;
+}
+
+.name p
+{
+	margin: 0 0 0 0;
+}
+
+.menu
+{
+	display: flex;
+	flex: 1;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.menu_onClick
+{
+	color: #CA885F;
+}
+
+.menu_onClick:visited
+{
+	color: #CA885F;
+}
+
+a
+{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #CA885F;
+}
+
+
+.menu a
+{
+	margin: 0 0 0 30px;
+}
+
+.lastName
+{
+	font-weight: bold;
+}
+
+.works
+{
+	height: 670px;
+	max-width: 2100px;
+	display: flex;
+	margin: auto;
+}
+
+.works a
+{
+	display: flex;
+	margin: 0 3px;
+	flex: 1;
+}
+
+@keyframes image {
+	0% {bottom:-15px; opacity: 0}
+	100% {bottom:0px; opacity: 1}
+}
+
+.img_1
+{
+	background: url("pics/lawyer_face_maxHeight.jpg") no-repeat center;
+	position: relative;
+  	animation-name: image;
+  	animation-duration: 1s;
+}
+
+.img_2
+{
+	background: url("pics/frog_maxHeight.jpg") no-repeat center;
+	position: relative;
+  	animation-name: image;
+  	animation-duration: 1s;
+}
+
+.img_3
+{
+	background: url("pics/radio_maxHeight.jpg") no-repeat center;
+	position: relative;
+  	animation-name: image;
+  	animation-duration: 1s;
+}
+
+.img_4
+{
+	background: url("pics/rocker_face_maxHeight.jpg") no-repeat center;
+	position: relative;
+  	animation-name: image;
+  	animation-duration: 1s;
+}
+
+.img_5
+{
+	background: url("pics/quechua_render_face_maxHeight.jpg") no-repeat center;
+	position: relative;
+  	animation-name: image;
+  	animation-duration: 1s;
+}
+
+.img_6
+{
+	background: url("pics/monster_maxHeight.jpg") no-repeat center;
+	position: relative;
+  	animation-name: image;
+  	animation-duration: 1s;
+}
+
+.img_7
+{
+	background: url("pics/clockwork_face_maxHeight.jpg") no-repeat center;
+	position: relative;
+  	animation-name: image;
+  	animation-duration: 1s;
+}
+
+footer
+{
+	max-width: 950px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	margin-top: 30px;
+	justify-content: center;
+}
+
+footer img
+{
+	background: black;
+	max-height: 25px;
+	max-width: 25px;
+	display: flex;
+	margin: auto;
+}
+
+footer img:hover
+{
+	background: #CA885F;
+}
+
+footer p
+{
+	margin: auto;
+	margin-top: 15px;
+	font-size: 0.8em;
+}
+
+
+
+.big_part_one, .big_part_two, .big_part_three, .big_part_four, .big_part_five    /* Big parts */
+{
+	width: 950px;
+	display: flex;
+	margin: auto;
+	padding: 10px 0;
+}
+
+.remove_space
+{
+	font-size: 0;
+}
+
+
+
+.part_one_leftside  /* Dimensions parts sides */
+{
+	width: 49%;
+	margin-right: 1%;
+}
+
+.part_one_rightside
+{
+	width: 49%;
+	margin-left: 1%;
+}
+
+.part_two_leftside
+{
+	width: 29%;
+	margin-right: 1%;
+}
+
+.part_two_rightside
+{
+	width: 69%;
+	margin-left: 1%;
+}
+
+.part_three_leftside
+{
+	width: 59%;
+	margin-right: 1%;
+}
+
+.part_three_rightside
+{
+	width: 39%;
+	margin-left: 1%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.part_four_leftside
+{
+	width: 39%;
+	margin-right: 1%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.part_four_rightside
+{
+	width: 59%;
+	margin-left: 1%;
+}
+
+.part_five_leftside
+{
+	width: 49%;
+	margin-right: 1%;
+}
+
+.part_five_rightside
+{
+	width: 49%;
+	margin-left: 1%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+
+
+.main_triple_img  /* Triple images */
+{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+.triple_img
+{
+	width: 32%;
+	display: flex;
+}
+
+
+
+.img_lawyer, .img_rocker, .img_radio, .img_quechua, .img_frog, .img_clockwork, .img_monster  /* Big images */
+{
+	width: 100%;
+}
+
+.img_clockwork
+{
+	marg
+}
+
+
+
+h2		/* Size titles projects */
+{
+	text-transform: uppercase;
+	font-size: 1.3em;
+	color: #CA885F;
+	margin: 0 0;
+}
+
+h3
+{
+	font-size: 1.1em;
+	font-weight: normal;
+	margin: 0 0;
+}
+
+.part_one_leftside h2, .part_one_leftside h3, .part_two_leftside h2, .part_two_leftside h3, .part_four_leftside h2, .part_four_leftside h3, .part_five_leftside h2, .part_five_leftside h3
+{
+	text-align: right;
+}
+
+
