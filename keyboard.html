@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Virtual Keyboard</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <link rel='stylesheet' type='text/css' media='screen' href='css/keyboard.css'>
+</head>
+<body>
+    <div class="containerPage">
+        <!-- <p class="tmpWidth">width: </p> -->
+        <div class="keyboard">
+            <div class="keys">
+                <div class="keysBlock">
+                    <div class="keysLineTop">
+                        <div class="keyTop" id="esc"></div>
+                        <div class="keyTop"></div>
+                        <div class="keyTop"></div>
+                        <div class="keyTop"></div>
+                        <div class="keyTop"></div>
+                        <div class="keyTop"></div>
+                        <div class="keyTop"></div>
+                        <div class="keyTop"></div>
+                        <div class="keyTop"></div>
+                        <div class="keyTop"></div>
+                        <div class="keyTop"></div>
+                        <div class="keyTop"></div>
+                        <div class="keyTop"></div>
+                        <div class="keyTop"></div>
+                    </div>
+                    <div class="keysLineStd">
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key" id="backSpace"><div class="keyCircle"></div></div>
+                    </div>
+                    <div class="keysLineStd">
+                        <div class="key" id="tab"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle" id="Q"></div></div>
+                        <div class="key"><div class="keyCircle" id="W"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key" id="pipe"><div class="keyCircle"></div></div>
+                    </div>
+                    <div class="keysLineStd">
+                        <div class="key" id="capLock"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <!-- <div class="key" id="enter"></div> -->
+                    </div>
+                    <div class="keysLineStd">
+                        <div class="key" id="shiftLeft"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key" id="shiftRight"><div class="keyCircle"></div></div>
+                    </div>
+                    <div class="keysLineStd">
+                        <div class="keyBottom" id="ctrl"></div>
+                        <div class="keyBottom" id="optionLeft"></div>
+                        <div class="keyBottom" id="cmdLeft"></div>
+                        <div class="keyBottom" id="space"></div>
+                        <div class="keyBottom" id="cmdRight"></div>
+                        <div class="keyBottom" id="function"></div>
+                        <div class="keyBottom" id="optionRight"></div>
+                    </div>
+                </div>
+                <div class="keysBlockMid">
+                    <div class="keysLineTop">
+                        <div class="keyTop"></div>
+                        <div class="keyTop"></div>
+                        <div class="keyTop"></div>
+                    </div>
+                    
+                    <div class="keysLineStd">
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>              
+                    </div>
+                    
+                    <div class="keysLineStd">
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>              
+                    </div>
+                    
+                    <div class="keysLineStd">
+                    </div>
+                    
+                    <div class="keysLineArrow">
+                        <div class="key"><div class="keyCircle"></div></div>
+                    </div>
+                    
+                    <div class="keysLineStd">
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>              
+                    </div>
+                </div>
+
+                <div class="keysBlock">
+                    <div class="keysLineTop">
+                        <div class="keyTop"></div>
+                        <div class="keyTop"></div>
+                        <div class="keyTop"></div>
+                    </div>
+                    
+                    <div class="keysLineStd">
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>              
+                    </div>
+                    <div class="keysLineStd">
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>              
+                    </div>
+                    <div class="keysLineStd">
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>              
+                    </div>
+                    <div class="keysLineStd">
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>              
+                    </div>
+                    <div class="keysLineStd">
+                        <div class="key" id="zero"><div class="keyCircle"></div></div>
+                        <div class="key"><div class="keyCircle"></div></div>
+                    </div>
+                </div>
+
+                <div class="keysLastBlock">
+                        <div class="keysLineTop">
+                            <div class="keyTop" id="lock"></div> 
+                        </div>
+                        <div class="keysLineStdLast">
+                            <div class="key"><div class="keyCircle"></div></div>
+                            <div class="key" id="plus"><div class="keyCircleLong"></div></div>
+                            <div class="key" id="equal"><div class="keyCircleLong"></div></div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="javascript/keyboard.js"></script>
+</body>
+</html>

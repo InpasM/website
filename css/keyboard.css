@@ -1,0 +1,190 @@
+@font-face {
+    font-family: 'Brown';
+    src: url('fonts/Brown-Light.eot');
+    src: local('Brown-Light'),
+        url('fonts/Brown-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Brown-Light.woff2') format('woff2'),
+        url('fonts/Brown-Light.woff') format('woff'),
+        url('fonts/Brown-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+*
+{
+    font-family: Brown, Arial, sans-serif;
+}
+
+body 
+{
+    /* background: #0d0d0e; */
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #1f1f1f 0%, #0f0f0f 74%);
+    /* background: radial-gradient(circle at 10% 50%, rgb(36, 36, 36) 0%, rgb(29, 29, 29) 90.2%); */
+    margin: 0;
+    padding: 0;
+}
+
+.containerPage
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tmpWidth
+{
+    color: white;
+}
+
+.keyboard
+{
+    display: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* width: 90vw; */
+    /* background: #303132; */
+    background-image: linear-gradient(45deg, #252525cc, transparent), url("imgKeyboard/noise.jpg");
+    background-size: cover, 30px;
+    background-repeat: repeat;
+    /* border-radius: 40px; */
+    border: solid 2px #1b1b1b;
+    box-shadow: #080808 0 15px 40px;
+}
+
+.keys
+{
+    /* background: red; */
+    display: flex;
+    /* flex: 1; */
+    /*justify-content: space-between; */
+}
+
+.keysBlock
+{
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+    /* width: 100%; */
+    /* flex: 1;
+    background: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.keysLastBlock
+{
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.keysBlockMid
+{
+    height: 100%;
+    /* width: 100%; */
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin: 0; */
+    /* background: blue; */
+}
+
+.keysLineTop
+{
+    /* width: 250px; */
+    /* height: 100%; */
+    /* flex: 1; */
+    /* margin: 3px; */
+    display: flex;
+    align-items: center;
+    /* background: rgb(143, 102, 26); */
+}
+
+.keysLineStd
+{
+    /* width: 100%; */
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* background: orange; */
+}
+
+.keysLineArrow
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.keysLineStdLast
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background: orange; */
+}
+
+.key, .keyTop, .keyBottom
+{
+    /* background-image: radial-gradient(ellipse at left, #292c2ebe, transparent), radial-gradient(ellipse at bottom left, #20222494, transparent), radial-gradient(circle at top right, #6c6e721a, transparent); */
+    /* background-image: radial-gradient(ellipse at left, #222527be, transparent), radial-gradient(ellipse at bottom left, #22242794, transparent), radial-gradient(circle at top right, #2c2c30d7, transparent), radial-gradient(circle at bottom right, #1e2022be, transparent); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: #212224; */
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    /* border-width: thin; */
+    /* border-width: 2px;
+    border-style: solid; */
+    /* border-image: linear-gradient(to top right, #17181ab6, #84878b57) 1; */
+    /* border-image: linear-gradient(to top right, #101113b6, #161718af) 1; */
+
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.9);
+    /* box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.9); */
+    outline: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.key:hover, .keyTop:hover, .keyBottom:hover
+{
+    /* background: rgb(30, 31, 32);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5); */
+    cursor: pointer;
+}
+
+.keyCircle, .keyCircleLong
+{
+    /* width: 30px;
+    height: 30px; */
+    border-radius: 25px;
+
+    /* background: #27282b; */
+
+    /* border: solid 1px #2f2f31; */
+    /* border: solid 1px #252527; */
+    /* background-image: radial-gradient(ellipse at right, #1b1d1fa8, transparent), radial-gradient(ellipse at top right, #181a1b, transparent), radial-gradient(circle at center, #535558a8, transparent), radial-gradient(circle at bottom left, #7a7c832c, transparent); */
+    color: #787a7e;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
